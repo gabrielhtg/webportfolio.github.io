@@ -1,0 +1,768 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 15px;
+}
+
+.layer1 {
+  width: 100%;
+  display: flex;
+}
+
+.menu {
+  size: 100%;
+  margin-top: 20px;
+  flex-shrink: 0;
+}
+
+.flex1 {
+  width: 70px;
+  height: 70px;
+  flex-shrink: 1;
+}
+
+#learn {
+  font-size: 15;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+#learn:hover {
+  text-decoration: underline;
+  color: #4070f4;
+}
+
+.contactme {
+  font-size: 15px;
+  text-decoration: none;
+  color: #4070f4;
+  font-weight: bold;
+  background-color: white;
+  height: 50px;
+  padding: 0 20px 0 20px;
+  border-radius: 50px;
+  border-color: #4070f4;
+  border-style: solid;
+  border-width: 3px;
+  transition: all 0.3s ease;
+}
+
+.contactme:hover {
+  color: white;
+  border-color: white;
+  background-color: #4070f4;
+}
+
+#seemore {
+  margin-top: 50px;
+}
+
+.tempatlogo {
+  width: 200px;
+  flex-grow: 1;
+}
+
+.tempatlogo img {
+  margin-top: 9px;
+  width: 70px;
+  height: 70px;
+}
+
+.sublayer2-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.sublayer2-2 {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.layer2 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  align-items: center;
+  text-align: center;
+}
+
+.teks1 {
+  font-family: "Fira Code", monospace;
+  font-size: 35px;
+  font-weight: bold;
+  color: black;
+}
+
+.teks2 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#bgfoto {
+  width: 220px;
+  height: 220px;
+  background-color: #4070f4;
+  border-radius: 50%;
+  margin-top: 53px;
+  display: flex;
+  flex-direction: column;
+}
+
+#foto {
+  width: 340px;
+  margin-left: -55px;
+  margin-top: -76px;
+  height: 350px;
+}
+
+#layer3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 170px;
+  max-width: 100%;
+}
+
+.subbglengkung {
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#bglengkung {
+  width: 120%;
+  height: 300px;
+  background-color: #4070f4;
+  border-radius: 70%;
+  margin-left: -10%;
+}
+
+#bgkotak {
+  width: 100%;
+  background-color: #4070f4;
+  margin-top: -230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#judulputih {
+  font-family: "Fira Code", monospace;
+  font-size: 27px;
+  color: white;
+  font-weight: 500;
+}
+
+#tempattekslayer3 {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 100;
+  margin-bottom: 350px;
+}
+
+.tekslayer3 {
+  font-size: 18px;
+  color: white;
+}
+
+#teks13 {
+  margin-top: 30px;
+}
+
+#teks23 {
+  margin-top: 25px;
+}
+
+#tempatcard {
+  width: 100%;
+  display: flex;
+  margin-top: -300px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  max-width: 367px;
+  min-width: 267px;
+  height: 713px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  text-align: center;
+  border-width: 3px;
+  border-color: #4070f4;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.judulcard {
+  font-family: "Fira Code", monospace;
+  font-weight: 500;
+  font-size: 25px;
+  color: black;
+  margin-top: 49px;
+}
+
+.subjudulcard {
+  color: #4070f4;
+  margin-bottom: 9px;
+}
+
+.textcard1 {
+  width: 321px;
+  color: black;
+  margin-top: 31px;
+  margin-bottom: 33px;
+}
+
+.textcard2 {
+  width: 321px;
+  color: black;
+  margin-bottom: 31px;
+}
+
+.textcard3 {
+  width: 321px;
+  color: black;
+}
+
+#textcard2khusus {
+  margin-bottom: 52px;
+}
+
+.layer4 {
+  width: 100%;
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#my-projects {
+  font-weight: 500;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#showbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#showbox a {
+  text-decoration: none;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.box {
+  flex-shrink: 1;
+  width: 391px;
+  height: 220px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.box:hover {
+  border-color: #4070f4;
+  color: #4070f4;
+  font-weight: 500;
+}
+
+.box img {
+  width: 100%;
+  border-radius: 17px;
+}
+
+.textgambar {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+#garislayer4 {
+  width: 0px;
+  height: 2px;
+  background-color: #4070f4;
+  margin-top: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+#github {
+  margin-top: 20px;
+}
+
+.layer4:hover #garislayer4 {
+  width: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+#garisAboutMe {
+  width: 0px;
+  height: 2px;
+  background-color: #4070f4;
+  margin-top: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+#aboutMe:hover #garisAboutMe {
+  width: 250px;
+  transition: all 0.3s ease-in-out;
+}
+
+#garisResume {
+  width: 0px;
+  height: 2px;
+  background-color: #4070f4;
+  margin-top: 6px;
+  transition: all 0.3s ease-in-out;
+}
+
+#resume:hover #garisResume {
+  width: 420px;
+  transition: all 0.3s ease-in-out;
+}
+
+.layer5 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+}
+
+#interest {
+  width: 90%;
+}
+
+#openfor {
+  color: black;
+  font-size: 25px;
+}
+
+#contact {
+  margin-top: 50px;
+}
+
+.bx-message-square-dots {
+  margin-right: 10px;
+}
+
+.bx-link-external {
+  margin-right: 10px;
+}
+
+.garispemisah {
+  height: 2px;
+  width: 90%;
+  background-color: grey;
+  opacity: 0.2;
+  margin-bottom: 50px;
+}
+
+.layer6 {
+  width: 100%;
+  height: 250px;
+  background-color: #4070f4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.layer6 img {
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+}
+
+#tempattekslayer6 {
+  margin-top: 14px;
+  font-family: "Fira Code", monospace;
+  color: white;
+}
+
+.tempaticonsosmed a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+#garisputih {
+  width: 200px;
+  background-color: white;
+  height: 1px;
+  margin-top: 15px;
+}
+
+.tempaticonsosmed i {
+  font-size: 20px;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  border-width: 2px;
+  padding: 5px;
+}
+
+.tempaticonsosmed i:hover {
+  color: #4070f4;
+  background-color: white;
+  padding: 5px;
+}
+
+.tempaticonsosmed {
+  margin-top: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.tempatText {
+  width: 80%;
+  text-align: center;
+}
+
+.tempatText p {
+  font-size: 18px;
+}
+
+.tempatGambar {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.tempatGambar img {
+  width: 40%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #4070f4;
+  border-radius: 30px;
+}
+
+.form-contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* width: 80%; */
+  margin-top: 80px;
+}
+
+.form-contactme div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.form-contactme input {
+  height: 50px;
+  width: 300px;
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.form-contactme textarea {
+  padding: 20px;
+  width: 90%;
+  height: 200px;
+}
+
+.form-contactme input,
+.form-contactme section textarea {
+  border-style: solid;
+  /* border-color: #4070f4; */
+  border-radius: 20px;
+  border-width: 2px;
+}
+
+.tombol-submit {
+  background-color: transparent;
+  border-style: none;
+  position: relative;
+  z-index: 10;
+  align-self: flex-end;
+  bottom: 50px;
+  right: 50px;
+}
+
+.form-contactme section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tombol-submit i {
+  font-size: 30px;
+  transition: all ease 0.3 ease;
+}
+
+.tombol-submit i:hover {
+  color: #4070f4;
+}
+
+@media (max-width: 576px) {
+  .tempatGambar {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .tempatGambar img {
+    width: 80%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4070f4;
+    border-radius: 30px;
+  }
+
+  #resume:hover #garisResume {
+    width: 280px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .form-contactme {
+    /* background-color: #4070f4; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* width: 80%; */
+    margin-top: 80px;
+  }
+
+  .form-contactme div {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .form-contactme input {
+    height: 50px;
+    width: 90%px;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  /* .form-contactme section textarea {
+    padding: 20px;
+    width: 90%;
+    height: 200px;
+  } */
+
+  #message {
+    width: 90%;
+  }
+
+  .form-contactme input,
+  .form-contactme section textarea {
+    border-style: solid;
+    /* border-color: #4070f4; */
+    border-radius: 20px;
+    border-width: 2px;
+  }
+
+  .tombol-submit {
+    background-color: transparent;
+    border-style: none;
+    position: relative;
+    z-index: 10;
+    align-self: flex-end;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  .form-contactme section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tombol-submit i {
+    font-size: 30px;
+    transition: all ease 0.3 ease;
+  }
+
+  .tombol-submit i:hover {
+    color: #4070f4;
+  }
+
+  .layer1 {
+    display: flex;
+    align-items: center;
+  }
+
+  .tempatlogo {
+    margin-top: 0;
+  }
+
+  .tempatlogo img {
+    width: 50px;
+    height: 50px;
+  }
+
+  #learn {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+
+  .menu {
+    margin-top: 0;
+  }
+
+  .contactme {
+    font-size: 12px;
+    text-decoration: none;
+    color: #4070f4;
+    font-weight: bold;
+    background-color: white;
+    height: 50px;
+    padding: 0 10px 0 10px;
+    border-radius: 50px;
+    border-color: #4070f4;
+    border-style: solid;
+    border-width: 3px;
+    transition: all 0.3s ease;
+  }
+
+  .flex1 {
+    width: 12px;
+  }
+
+  .teks1 {
+    font-size: 20px;
+  }
+
+  .teks2 {
+    font-size: 12px;
+  }
+
+  #judulputih {
+    font-size: 20px;
+  }
+
+  .tekslayer3 {
+    font-size: 12px;
+  }
+
+  .judulcard {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+
+  .textcard1,
+  .subjudulcard,
+  .textcard2,
+  .textcard3 {
+    font-size: 12px;
+  }
+
+  .textcard1 {
+    width: 270px;
+  }
+
+  .card {
+    height: 550px;
+  }
+
+  .box {
+    width: 320px;
+    height: calc(320px / 1.777);
+  }
+
+  .textgambar {
+    font-size: 16px;
+  }
+
+  #openfor {
+    font-size: 15px;
+    width: 300px;
+  }
+
+  .contactme {
+    font-size: 12px;
+  }
+
+  .bx {
+    font-size: 12px;
+    margin-right: 2px;
+  }
+
+  #contact {
+    font-size: 12;
+  }
+
+  .layer2 {
+    margin-top: 20px;
+  }
+
+  #layer3 {
+    margin-top: 80px;
+  }
+
+  #bglengkung {
+    position: relative;
+    left: -15%;
+    width: 150%;
+    height: 300px;
+    background-color: #4070f4;
+    border-radius: 70%;
+    z-index: 1;
+  }
+
+  #bgkotak {
+    z-index: 2;
+  }
+
+  #tempatcard {
+    z-index: 2;
+  }
+}

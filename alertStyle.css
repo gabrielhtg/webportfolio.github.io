@@ -1,0 +1,49 @@
+.alert {
+  animation-name: atasKeBawah;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  background-color: #f87272;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18px;
+  padding: 30px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+.alert i {
+  margin-right: 10px;
+}
+.tempat-alert {
+  width: 100%;
+  position: fixed;
+  display: flex;
+  top: -200px;
+  justify-content: center;
+}
+
+@keyframes atasKeBawah {
+  0% {
+    transform: translateY(0px);
+  }
+
+  15% {
+    transform: translateY(240px);
+  }
+
+  85% {
+    transform: translateY(230px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
